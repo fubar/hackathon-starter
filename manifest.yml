@@ -1,0 +1,10 @@
+---
+applications:
+- services:
+  - JessPrototypeMongoDb
+  name: JessPrototype
+  memory: 512M
+  host: JessPrototype
+  command: node app.js
+  path: .
+  instances: 1
